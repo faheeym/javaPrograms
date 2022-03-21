@@ -8,7 +8,7 @@ The card you picked is Jack of Hearts
 import java.util.*;
 public class index {
     public static void main(String[] args) {
-       int max=13, min=1;
+        
         Random num= new Random();
         int number = num.nextInt(13+1)+1;
         int card=num.nextInt(4+1)+1;
